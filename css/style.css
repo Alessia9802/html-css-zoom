@@ -47,3 +47,41 @@ body {
   align-self: center;
   margin-left: 500px;
 }
+
+/* main */
+
+.griglia {
+  position: relative;
+  display: flex;
+}
+
+.microfono {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  display: flex;
+}
+
+.opacity {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.slash {
+  position: absolute;
+  left: 0;
+  transform: rotateY(180deg);
+  color: red;
+}
+
+.name {
+  padding-left: 0.5rem;
+}
+
+.people {
+  padding-right: 5px;
+}
