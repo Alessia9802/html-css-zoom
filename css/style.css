@@ -51,8 +51,16 @@ body {
 /* main */
 
 .griglia {
-  position: relative;
   display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  padding-right: 5px;
+  padding-top: 5px;
 }
 
 .microfono {
@@ -80,8 +88,4 @@ body {
 
 .name {
   padding-left: 0.5rem;
-}
-
-.people {
-  padding-right: 5px;
 }
