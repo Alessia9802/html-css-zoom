@@ -156,6 +156,7 @@ main {
   height: 80px;
   background-color: #232427;
   display: flex;
+  align-content: space-between;
 
   /* justify-content: space-between; */
   color: white;
