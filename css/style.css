@@ -164,23 +164,27 @@ main {
 .mute {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
-.vocal,
-.fa-video {
-  font-size: 30px;
+.users {
+  display: flex;
+  flex-direction: column;
   align-self: center;
 }
 
 .fa-chevron-up {
-  vertical-align: middle;
+  flex-direction: column;
+  align-self: center;
 }
 
 .video {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .icons {
   display: flex;
+  align-self: center;
 }
